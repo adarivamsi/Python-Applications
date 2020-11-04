@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="155996a4-4388-45a8-a566-a029516957c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/Royal Basmati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/Royal Basmati_best.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/Royal Basmati_products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/XBOX Controller.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/XBOX Controller_best.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon-price-tracker/reports/XBOX Controller_products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-price-tracker/amazon_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-price-tracker/amazon_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-price-tracker/reports/Samsung S20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-price-tracker/reports/iphone se.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-price-tracker/reports/samsung s3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-price-tracker/simple_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-price-tracker/simple_tracker.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jo2sryFepdrciFGnaz7eyu0xND" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155996a4-4388-45a8-a566-a029516957c0" name="Default Changelist" comment="" />
+      <created>1604456334201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604456334201</updated>
+    </task>
+    <servers />
+  </component>
+</project>

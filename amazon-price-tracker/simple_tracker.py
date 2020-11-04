@@ -33,9 +33,15 @@ class GenerateReport:
             'base_link': self.base_link,
             'products': self.data
         }
+        report_best_item = [self.get_best_item()]
+        report_products = self.data
         print("Creating report...")
         with open(f'{DIRECTORY}/{file_name}.json', 'w') as f:
             json.dump(report, f)
+        with open(f'{DIRECTORY}/{file_name}_best.json', 'w') as f:
+            json.dump(report_best_item, f)
+        with open(f'{DIRECTORY}/{file_name}_products.json', 'w') as f:
+            json.dump(report_products, f)
         print("Done...")
 
     @staticmethod
@@ -117,6 +123,7 @@ class AmazonAPI:
         self.driver.get(f'{product_short_url}?language=en_GB')
         time.sleep(2)
         title = self.get_title()
+        image = self.get_image()
         seller = self.get_seller()
         price = self.get_price()
         if title and seller and price:
@@ -124,6 +131,7 @@ class AmazonAPI:
                 'asin': asin,
                 'url': product_short_url,
                 'title': title,
+                'image': image,
                 'seller': seller,
                 'price': price
             }
@@ -136,6 +144,14 @@ class AmazonAPI:
         except Exception as e:
             print(e)
             print(f"Can't get title of a product - {self.driver.current_url}")
+            return None
+
+    def get_image(self):
+        try:
+            return self.driver.find_element_by_id('landingImage').get_attribute("src")
+        except Exception as e:
+            print(e)
+            print(f"Can't get image of a product - {self.driver.current_url}")
             return None
 
     def get_seller(self):

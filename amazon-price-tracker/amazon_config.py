@@ -1,15 +1,15 @@
 from selenium import webdriver
 
 DIRECTORY = 'reports'
-NAME = 'samsung s3'
-CURRENCY = '€'
-MIN_PRICE = '50'
-MAX_PRICE = '150'
+NAME = 'Royal Basmati'
+CURRENCY = '$'
+MIN_PRICE = '5'
+MAX_PRICE = '20'
 FILTERS = {
     'min': MIN_PRICE,
     'max': MAX_PRICE
 }
-BASE_URL = "http://www.amazon.de/"
+BASE_URL = "http://www.amazon.com/"
 
 
 def get_chrome_web_driver(options):
