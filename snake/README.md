@@ -1,4 +1,4 @@
-# PBFlix - Passionate Burger
+# Snake
 
 This project is a simple python Snake Game. Feel free to contribute!
  
